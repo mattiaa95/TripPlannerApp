@@ -51,9 +51,7 @@ Dijkstra's algorithm to find the shortest path between a and b. It picks the unv
 
 ![Dijkstra_Animation](https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif)
 
-Do not use A* for this reason:
-
-Compared to Dijkstra's algorithm, the A* algorithm only finds the shortest path from a specific source to a specific target, and not the tree of shortest paths from a specific source to all possible targets. This is a necessary trade-off for using a goal-directed heuristic. In the case of Dijkstra's algorithm, since the entire shortest path tree is generated, each node is a goal, and there can be no goal-directed heuristic.
+I could improve the efficiency of my search by using another search algorithm such as A*.  
 
 - https://en.wikipedia.org/wiki/A*_search_algorithm
 
