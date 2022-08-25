@@ -20,6 +20,7 @@ class TripPlannerUITests: XCTestCase {
     
     func testUITestTrip() {
         let app = XCUIApplication()
+        app.launchArguments.append("TEST")
         app.launch()
         
         let tablesQuery = app.tables
